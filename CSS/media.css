@@ -1,0 +1,237 @@
+@media screen and (max-width: 1650px) {
+    .offer:nth-child(1)::before{
+        display: none;
+    }
+    .offer:nth-child(2)::before{
+        display: none;
+    }
+    .second{
+        width: 1000px;
+        height: 880px;
+    }
+    .offer:nth-child(1)::after{
+        width: 100px;
+        height: 100px;
+        top: -50px;
+        right: -50px;
+        font-size: 30px;
+    }
+    .offer:nth-child(2)::after{
+        width: 100px;
+        height: 100px;
+        top: -50px;
+        right: -50px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .offer{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 1130px){
+    .second{
+        width: 800px;
+    }
+    .twoHeader{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 930px){
+    .second{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 720px){
+    .second{
+        height: 1450px;
+    }
+    .secMain{
+        height: 100%;
+        margin-top: 0;
+    }
+    .offers{
+        height: 90%;
+        flex-direction: column;
+    }
+    .offer{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 600px){
+    .second{
+        width: 325px;
+    }
+    .offer:nth-child(1)::after{
+        width: 50px;
+        height: 50px;
+        top: -25px;
+        right: -25px;
+        font-size: 18px;
+    }
+    .offer:nth-child(2)::after{
+        width: 50px;
+        height: 50px;
+        top: -25px;
+        right: -25px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .offerBtn{
+        height: 36px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1340px) {
+    header{
+        width: 1000px;
+    }
+    .first{
+        width: 1000px;
+    }
+    .third img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .forth{
+        width: 1000px;
+    }
+    .forthNav{
+        width: 97%;
+    }
+    .forthNavInfo{
+        width: 97%;
+    }
+    .forthNavInfoPlace{
+        width: 63%;
+    }
+    .forthNavInfoPic{
+        width: 30%;
+    }
+    .forthNavInfoPic img{
+        object-fit: contain;
+    }
+}
+@media screen and (max-width: 1000px) {
+    header{
+        width: 800px;
+    }
+    .first{
+        width: 800px;
+    }
+    .forth{
+        width: 800px;
+    }
+    .forthNav li{
+        width: 16%;
+        font-size: 16px;
+    }
+    .forthNavInfoPlace p{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 800px) {
+    header{
+        width: 600px;
+    }
+    .first{
+        width: 600px;
+    }
+    .info{
+        width: 100%;
+    }
+    .forth{
+        width: 600px;
+    }
+    .forthNav li{
+        width: 16%;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 600px) {
+    header{
+        width: 325px;
+    }
+    .logo{
+        width: 160px;
+        height: 30px;
+    }
+    .headerBtn{
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .first{
+        width: 325px;
+        height: 400px;
+    }
+    .info{
+        height: 120px;
+    }
+    .bigText{
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .bigText span{
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .oneBtnPlace{
+        height: 70px;
+    }
+    .oneBtn{
+        height: 40px;
+        font-size: 14px;
+    }
+    .reviews{
+        width: 100%;
+    }
+    .rewTextPlace img{
+        height: 80%;
+    }
+    .rewTextPlace p{
+        font-size: 13px;
+    }
+    .rewPartners img{
+        height: 70%;
+    }
+    .forth{
+        width: 325px;
+        height: 1150px;
+    }
+    .forthMain{
+        height: 1000px;
+    }
+    .forthText{
+        width: 100%;
+        font-size: 28px;
+    }
+    .forthNav{
+        flex-wrap: wrap;
+        height: 350px;
+    }
+    .forthNav li{
+        width: 100px;
+        height: 45%;
+    }
+    .forthNavInfoPlace button{
+        height: 35px;
+        font-size: 16px;
+    }
+    .fifthMain{
+        height: 80%;
+    }
+    .companies{
+        height: 80%;
+    }
+    .companies img{
+        width: 150px;
+        height: auto;
+    }
+    .sixthMain{
+        align-items: center;
+    }
+    .sixthMain button{
+        height: 40px;
+        font-size: 18px;
+    }
+}
